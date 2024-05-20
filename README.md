@@ -4,6 +4,8 @@ A basic guide to quantum programming across multiple quantum languages, with an 
 
 ## Languages
 
+The following Quantum programming languages will be used for demonstrating concepts.
+
 ### Cirq
 - Superconducting qubits
 - Google owned
@@ -18,27 +20,27 @@ A basic guide to quantum programming across multiple quantum languages, with an 
 
 ### QSharp
 - Topological qubits
-- Microsoft Owned
+- Microsoft owned
 - Uses .NET for a runner but not a .NET language
 - https://github.com/microsoft/qsharp
 
 ### pyQuil
 - Superconducting qubits
-- Rigetti Owned
+- Rigetti owned
 - Python
 - https://pyquil-docs.rigetti.com/en/stable/
 
 
 ## 01_Qubit
 
-[What is a qubit?](01_Qubit/what_is_qubit.md)
-[Qubit types](01_Qubit/qubit_types.md)
+- [What is a qubit?](01_Qubit/what_is_qubit.md)
+- [Qubit types](01_Qubit/qubit_types.md)
 
 ### Examples
-[cirq.py](01_Qubit/cirq.py)
-[qiskit.py](01_Qubit/qiskit.py)
-[qsharp.qs](01_Qubit/qsharp.qs)
-[pyquil.py](01_Qubit/pyquil.py)
+- [cirq.py](01_Qubit/cirq.py)
+- [qiskit.py](01_Qubit/qiskit.py)
+- [qsharp.qs](01_Qubit/qsharp.qs)
+- [pyquil.py](01_Qubit/pyquil.py)
 
 ## 02_Gates
 
@@ -48,4 +50,6 @@ A bit in a classical computer going through an NOT gate will flip from a 0 to a 
 
 A qubit in a quantum computer going through a Pauli (x, Y or Z) gate will rotate to the opposite on that axis.
 
-### Hadamard
+### Types of gates
+
+- [Hadamard](02_Gates/hadamard.md) - Places qubit into superposition

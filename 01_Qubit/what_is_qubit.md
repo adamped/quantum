@@ -20,17 +20,27 @@ The Bloch Sphere is only designed to represent pure quantum states, not mixed st
 
 ## Basis States
 
-|0⟩ (pronounced "ket 0")
+    |0⟩ (pronounced "ket 0")
 
-|1⟩ (pronounced "ket 1")
+    |1⟩ (pronounced "ket 1")
 
 These are the 2 basis states a qubit can hold. When a qubit is measured, it will collapse into one of these states. In the Bloch Sphere, |0⟩ is usually north and |1⟩ south.
+
+## Tensor product
+
+⊗ denotes a tensor product, which is a way of combining multiple qubit values into a single value
+
+Comparing to a classical system we can combine 3 qubits into their classical counterparts.
+
+    |0⟩ ⊗ |1⟩ ⊗ |1⟩ ≡ |011⟩ ≡ |3⟩
+
+Note this equals ket 3 and not just 3. The ket 3 represents the qubits and their current state. If you were to measure each qubit at that point it would return 3, but you could continue to perform further quantum operations on the qubits.
 
 ## Superposition
 
 Superposition is when the qubit is a state that is a combination of |0⟩ and |1⟩ and contains certain probabilities on whether it will collapse as either |0⟩ or |1⟩.
 
-|ψ⟩ (pronounced "ket psi" or "ket sigh")
+    |ψ⟩ (pronounced "ket psi" or "ket sigh")
 
 This is the representation of a qubit in superposition.
 
