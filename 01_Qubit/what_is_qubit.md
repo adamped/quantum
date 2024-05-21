@@ -26,6 +26,14 @@ The Bloch Sphere is only designed to represent pure quantum states, not mixed st
 
 These are the 2 basis states a qubit can hold. When a qubit is measured, it will collapse into one of these states. In the Bloch Sphere, |0⟩ is usually north and |1⟩ south.
 
+Qubits are commonly represented as column vectors.
+
+    |0⟩ = | 1 |
+          | 0 |
+
+    |1⟩ = | 0 |
+          | 1 |
+
 ## Tensor product
 
 ⊗ denotes a tensor product, which is a way of combining multiple qubit values into a single value
@@ -42,7 +50,7 @@ Superposition is when the qubit is a state that is a combination of |0⟩ and |1
 
     |ψ⟩ (pronounced "ket psi" or "ket sigh")
 
-This is the representation of a qubit in superposition.
+This is the representation of a qubit in superposition. It can also be thought of as the vector or value of the qubit in a mathematical sense.
 
 To represent the state or amplitude of a qubit in superposition, the values α and β are used against the |0⟩ and |1⟩ respectively.
 
@@ -53,3 +61,9 @@ To represent the state or amplitude of a qubit in superposition, the values α a
 The amplitude itself is not the probability. |α|² and |β|² represent the probabilities. Meaning that |α|² + |β|² = 1
 
 To sum this up, we can now realise that |ψ⟩ = α|0⟩ + β|1⟩ is the superposition value. The superposition value can be represented on a Bloch Sphere.
+
+Represented as a column vector:
+
+    |ψ⟩ = α|0⟩ + β|1⟩ = |α|
+                        |β|
+
