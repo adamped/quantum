@@ -35,6 +35,7 @@ The following Quantum programming languages will be used for demonstrating conce
 
 - [What is a qubit?](01_Qubit/what_is_qubit.md)
 - [Qubit types](01_Qubit/qubit_types.md)
+- [Qubit phase](01_Qubit/qubit_phase.md)
 
 ### Examples
 - [cirq.py](01_Qubit/cirq.py)
@@ -48,7 +49,7 @@ Gates are similar to logic gates in classical computing. A qubit will go through
 
 A bit in a classical computer going through an NOT gate will flip from a 0 to a 1.
 
-A qubit in a quantum computer going through a Pauli (x, Y or Z) gate will rotate to the opposite on that axis.
+A qubit in a quantum computer going through a Pauli (X, Y or Z) gate will rotate to the opposite on that axis.
 
 ### Types of gates
 
