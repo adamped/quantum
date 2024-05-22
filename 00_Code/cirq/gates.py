@@ -2,6 +2,10 @@ import cirq
 
 # Pick a qubit.
 qubit = cirq.GridQubit(0, 0)
+target_qubit = cirq.GridQubit(0, 1)
+
+# CNOT gate
+cnot_gate = cirq.CNOT(qubit, target_qubit)
 
 # Create a circuit
 circuit = cirq.Circuit(

@@ -28,6 +28,11 @@ namespace MyQuantumProgram {
         // Apply Pauli-Z Gate
         Z(qubit);
 
+        use targetQubit = Qubit();
+
+        // CNOT Gate
+        CX(qubit, targetQubit);
+
         // Measure qubit
         let result = M(qubit);
 
