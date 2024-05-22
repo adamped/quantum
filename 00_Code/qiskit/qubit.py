@@ -4,6 +4,7 @@ from qiskit import QuantumCircuit
 qc = QuantumCircuit(1)
 
 # Apply Hadamard gate to put the qubit in superposition
+# 0 is the index in the quantum circuit for the particular qubit
 qc.h(0)
 
 # Measure qubit
