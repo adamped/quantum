@@ -1,5 +1,6 @@
 from pyquil import Program
 from pyquil.gates import *
+from math import pi
 
 p = Program()
 
@@ -26,6 +27,11 @@ p += S(0)
 
 # T Phase Gate
 p += T(0)
+
+# Rotation Gates (Radians = degrees * PI / 180)
+p += RX(270.0 * pi / 180.0, 0)
+p += RY(45.0 * pi / 180.0, 0)
+p += RZ(90.0 * pi / 180.0, 0)
 
 # Measure to classical readout
 p += MEASURE(0, ro[0])

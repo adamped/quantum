@@ -1,5 +1,7 @@
 namespace MyQuantumProgram {
 
+open Microsoft.Quantum.Math;
+
     operation Hadamard() : Result {
         
         // Allocate a qubit
@@ -33,6 +35,11 @@ namespace MyQuantumProgram {
 
         // Apply T Phase Gate
         T(qubit);
+
+        // Rotation Gates (Radians = degrees * PI / 180)
+        Rx(270.0 * PI() / 180.0, qubit);
+        Ry(45.0 * PI() / 180.0, qubit);
+        Rz(90.0 * PI() / 180.0, qubit);
 
         use targetQubit = Qubit();
 

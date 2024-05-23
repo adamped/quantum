@@ -1,4 +1,5 @@
 import cirq
+import numpy as np
 
 # Pick a qubit.
 qubit = cirq.GridQubit(0, 0)
@@ -15,5 +16,8 @@ circuit = cirq.Circuit(
  cirq.Z(qubit), # Pauli-Z
  cirq.S(qubit), # S Phase Gate
  cirq.T(qubit), # T Phase Gate
+ cirq.rx(3 * np.pi / 2)(qubit), # 270 degrees in radians
+ cirq.ry(np.pi / 4)(qubit), # 45 degrees in radians
+ cirq.rz(np.pi / 2)(qubit), # 90 degrees in radians
  cirq.measure(qubit, key='m') # Measurement.
 )

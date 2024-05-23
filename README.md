@@ -18,7 +18,7 @@ The following Quantum programming languages will be used for demonstrating conce
 - Python
 - https://www.ibm.com/quantum/qiskit
 
-### QSharp
+### QSharp (Q#)
 - Topological qubits
 - Microsoft owned
 - Uses .NET for a runner but not a .NET language
@@ -53,6 +53,7 @@ A qubit in a quantum computer going through a Pauli-X gate will rotate to the op
 - [Hadamard](02_Gates/hadamard.md) - Places qubit into superposition
 - [Pauli](02_Gates/pauli.md) - Changes phase or probabilities of qubit
 - [Phase Shift](02_Gates/phase_shift.md) - Change of phase without modifying probabilities.
+- [Rotation Gates](02_Gates/rotation.md) - Rotation of qubit around a specific axis
 
 ### Multi-qubit gates
 
