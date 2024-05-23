@@ -21,5 +21,11 @@ p += Z(0)
 # CNOT
 p += CNOT(0, 1)
 
+# S Phase Gate
+p += S(0)
+
+# T Phase Gate
+p += T(0)
+
 # Measure to classical readout
 p += MEASURE(0, ro[0])

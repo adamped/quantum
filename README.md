@@ -38,10 +38,7 @@ The following Quantum programming languages will be used for demonstrating conce
 - [Qubit phase](01_Qubit/qubit_phase.md)
 
 ### Examples
-- [Cirq](00_Code/cirq/qubit.py)
-- [Qiskit](00_Code/qiskit/qubit.py)
-- [QSharp](00_Code/qsharp/qubit.qs)
-- [pyQuil](00_Code/pyquil/qubit.py)
+[Cirq](00_Code/cirq/qubit.py) | [Qiskit](00_Code/qiskit/qubit.py) | [QSharp](00_Code/qsharp/qubit.qs) | [pyQuil](00_Code/pyquil/qubit.py)
 
 ## 02_Gates
 
@@ -51,13 +48,21 @@ A bit in a classical computer going through an NOT gate will flip from a 0 to a 
 
 A qubit in a quantum computer going through a Pauli-X gate will rotate to the opposite on that axis.
 
-### Types of gates
+### Single-qubit gates
 
 - [Hadamard](02_Gates/hadamard.md) - Places qubit into superposition
 - [Pauli](02_Gates/pauli.md) - Changes phase or probabilities of qubit
+- [Phase Shift](02_Gates/phase_shift.md) - Change of phase without modifying probabilities.
+
+### Multi-qubit gates
+
+- [Controlled NOT](02_Gates/controlled_not.md) - Entanglement of qubits
 
 ### Examples
-- [Cirq](00_Code/cirq/gates.py)
-- [Qiskit](00_Code/qiskit/gates.py)
-- [QSharp](00_Code/qsharp/gates.qs)
-- [pyQuil](00_Code/pyquil/gates.py)
+[Cirq](00_Code/cirq/gates.py) | [Qiskit](00_Code/qiskit/gates.py) | [QSharp](00_Code/qsharp/gates.qs) | [pyQuil](00_Code/pyquil/gates.py)
+
+
+## 03_Algorithms
+
+
+

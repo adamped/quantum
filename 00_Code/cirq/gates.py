@@ -13,5 +13,7 @@ circuit = cirq.Circuit(
  cirq.X(qubit), # Pauli-X
  cirq.Y(qubit), # Pauli-Y
  cirq.Z(qubit), # Pauli-Z
+ cirq.S(qubit), # S Phase Gate
+ cirq.T(qubit), # T Phase Gate
  cirq.measure(qubit, key='m') # Measurement.
 )

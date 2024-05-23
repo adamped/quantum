@@ -18,5 +18,11 @@ qc.z(0)
 # CNOT gate
 qc.cx(0, 1)
 
+# S Phase Gate
+qc.s(0)
+
+# T Phase Gate
+qc.t(0)
+
 # Measure qubit
 result = qc.measure(0, 0)

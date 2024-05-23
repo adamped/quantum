@@ -28,6 +28,12 @@ namespace MyQuantumProgram {
         // Apply Pauli-Z Gate
         Z(qubit);
 
+        // Apply S Phase Gate
+        S(qubit);
+
+        // Apply T Phase Gate
+        T(qubit);
+
         use targetQubit = Qubit();
 
         // CNOT Gate
