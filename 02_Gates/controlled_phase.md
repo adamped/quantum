@@ -4,7 +4,7 @@ The Controlled Phase Gate, also know as CPhase or CZ gate, is a two qubit gate t
 
 You can create a CZ gate that acts upon the target if in the |0⟩, but it is more common to use |1⟩.
 
-When applied a CZ gate will multiple the entire quantum state by the phase of the control qubit.
+When applied a CZ gate will multiple the entire target qubit quantum state by the phase of the control qubit.
 
     | 1  0  0  0 |
     | 0  1  0  0 |

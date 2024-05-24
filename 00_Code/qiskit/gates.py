@@ -33,5 +33,11 @@ qc.cx(0, 1)
 # CZ gate
 qc.cz(0, 1)
 
+# SWAP gate
+qc.swap(0, 1)
+
+# iSWAP gate
+qc.iswap(0, 1)
+
 # Measure qubit
 result = qc.measure(0, 0)

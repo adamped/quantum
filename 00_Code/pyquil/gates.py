@@ -36,5 +36,10 @@ p += CNOT(0, 1)
 # CZ Gate
 p += CZ(0, 1)  # Apply CZ to 0 (control) and 1 (target)
 
+# SWAP Gate
+p += SWAP(0, 1) 
+
+# iSWAP not available as function
+
 # Measure to classical readout
 p += MEASURE(0, ro[0])

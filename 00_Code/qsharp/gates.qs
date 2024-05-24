@@ -16,7 +16,7 @@ open Microsoft.Quantum.Math;
         return result;
     }
 
-    operation PauliGates() : Result {
+    operation Gates() : Result {
         
         // Allocate a qubit
         use qubit = Qubit();
@@ -48,6 +48,11 @@ open Microsoft.Quantum.Math;
 
         // Controlled Phase Gate
         Controlled Z([qubit], targetQubit);
+
+        // SWAP Gate
+        SWAP(qubit, targetQubit);
+
+        // iSWAP Gate not available as function but can build own
 
         // Measure qubit
         let result = M(qubit);
