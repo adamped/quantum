@@ -19,5 +19,6 @@ circuit = cirq.Circuit(
  cirq.rx(3 * np.pi / 2)(qubit), # 270 degrees in radians
  cirq.ry(np.pi / 4)(qubit), # 45 degrees in radians
  cirq.rz(np.pi / 2)(qubit), # 90 degrees in radians
+ cirq.CZ(qubit, target_qubit), # Controlled Phase Gate
  cirq.measure(qubit, key='m') # Measurement.
 )

@@ -46,6 +46,9 @@ open Microsoft.Quantum.Math;
         // CNOT Gate
         CX(qubit, targetQubit);
 
+        // Controlled Phase Gate
+        Controlled Z([qubit], targetQubit);
+
         // Measure qubit
         let result = M(qubit);
 

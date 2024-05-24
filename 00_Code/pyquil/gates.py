@@ -19,9 +19,6 @@ p += Y(0)
 # Pauli-Z
 p += Z(0)
 
-# CNOT
-p += CNOT(0, 1)
-
 # S Phase Gate
 p += S(0)
 
@@ -32,6 +29,12 @@ p += T(0)
 p += RX(270.0 * pi / 180.0, 0)
 p += RY(45.0 * pi / 180.0, 0)
 p += RZ(90.0 * pi / 180.0, 0)
+
+# CNOT
+p += CNOT(0, 1)
+
+# CZ Gate
+p += CZ(0, 1)  # Apply CZ to 0 (control) and 1 (target)
 
 # Measure to classical readout
 p += MEASURE(0, ro[0])

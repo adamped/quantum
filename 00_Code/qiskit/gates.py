@@ -30,5 +30,8 @@ qc.rz(pi / 2, 0)       # 90 degrees in radians
 # CNOT gate
 qc.cx(0, 1)
 
+# CZ gate
+qc.cz(0, 1)
+
 # Measure qubit
 result = qc.measure(0, 0)
