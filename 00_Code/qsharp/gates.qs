@@ -54,6 +54,13 @@ open Microsoft.Quantum.Math;
 
         // iSWAP Gate not available as function but can build own
 
+        use secondQubit = Qubit();
+
+        // CCNOT Gate
+        CCNOT(qubit, secondQubit, targetQubit);
+
+        // Fredkin Gate not directly available
+
         // Measure qubit
         let result = M(qubit);
 

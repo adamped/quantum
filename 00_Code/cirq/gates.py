@@ -4,6 +4,7 @@ import numpy as np
 # Pick a qubit.
 qubit = cirq.GridQubit(0, 0)
 target_qubit = cirq.GridQubit(0, 1)
+second_qubit = cirq.GridQubit(0, 1)
 
 # CNOT gate
 cnot_gate = cirq.CNOT(qubit, target_qubit)
@@ -22,5 +23,7 @@ circuit = cirq.Circuit(
  cirq.CZ(qubit, target_qubit), # Controlled Phase Gate
  cirq.SWAP(qubit, target_qubit),  # Apply the SWAP gate
  cirq.ISWAP(qubit, target_qubit),  # Apply the iSWAP gate
+ cirq.TOFFOLI(qubit, second_qubit, target_qubit), # Apply CCNOT gate
+ cirq.FREDKIN(qubit, second_qubit, target_qubit), # Apply CSWAP gate
  cirq.measure(qubit, key='m') # Measurement.
 )

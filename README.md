@@ -52,12 +52,14 @@ A qubit in a quantum computer going through a Pauli-X gate will rotate to the op
 
 - [Hadamard](02_Gates/hadamard.md) - Places qubit into superposition
 - [Pauli](02_Gates/pauli.md) - Changes phase or probabilities of qubit
-- [Phase Shift](02_Gates/phase_shift.md) - Change of phase without modifying probabilities.
+- [Phase Shift](02_Gates/phase_shift.md) - Change of phase without modifying probabilities
 - [Rotation Gates](02_Gates/rotation.md) - Rotation of qubit around a specific axis
 
 ### Multi-qubit gates
 
 - [Controlled NOT](02_Gates/controlled_not.md) - Entanglement of qubits
+- [Controlled Phase](02_Gates/controlled_phase.md) - Transferring phase to a target qubit
+- [SWAP](02_Gates_swap.md)- Swapping quantum states between qubits
 
 ### Examples
 [Cirq](00_Code/cirq/gates.py) | [Qiskit](00_Code/qiskit/gates.py) | [QSharp](00_Code/qsharp/gates.qs) | [pyQuil](00_Code/pyquil/gates.py)

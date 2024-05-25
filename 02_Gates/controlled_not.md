@@ -16,3 +16,9 @@ You will commonly use this gate for detection of errors, where you entangle the 
 You can perform the CNOT gate multiple times with multiple qubits for additional protection. CNOT gates are also reversible meaning you can undo the behavior by applying to the same two qubits.
 
 Additional gates and methods are used for actually performing the error correction.
+
+## Toffoli (CCNOT) Gate
+
+This is often called the Controlled Controlled NOT gate, due to the fact there are two control qubits and one target qubit. 
+
+If both control qubits are |1⟩, then it flips the states of the target qubit.

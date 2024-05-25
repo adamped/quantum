@@ -2,7 +2,7 @@ from qiskit import QuantumCircuit
 from math import pi
 
 # Create a quantum circuit with two qubits
-qc = QuantumCircuit(2)
+qc = QuantumCircuit(3)
 
 # Hadamard gate
 qc.h(0)
@@ -38,6 +38,12 @@ qc.swap(0, 1)
 
 # iSWAP gate
 qc.iswap(0, 1)
+
+# CCNOT gate
+qc.ccx(0, 1, 2) 
+
+# Fredkin gate (CSWAP)
+qc.cswap(0, 1, 2) 
 
 # Measure qubit
 result = qc.measure(0, 0)

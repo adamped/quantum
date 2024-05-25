@@ -5,7 +5,7 @@ from math import pi
 p = Program()
 
 # Declare classical region for readout (ro)
-ro = p.declare('ro', 'BIT', 2)
+ro = p.declare('ro', 'BIT', 3)
 
 # Hadamard Gate
 p += H(0)
@@ -40,6 +40,11 @@ p += CZ(0, 1)  # Apply CZ to 0 (control) and 1 (target)
 p += SWAP(0, 1) 
 
 # iSWAP not available as function
+
+# CCNOT Gate
+p += CCNOT(0, 1, 2) 
+
+# Fredkin Gate not directly available
 
 # Measure to classical readout
 p += MEASURE(0, ro[0])

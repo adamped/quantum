@@ -21,3 +21,7 @@ In addition to swapping quantum states it adds a phase factor to the imaginary u
     | 0  0  0  1 |
 
 The iSWAP gate has many uses in simulating physical interactions and certain quantum algorithms.
+
+## Fredkin (CSWAP) Gate
+
+The Fredkin gate swaps the state of the two target qubits only if the control qubit is in state |1⟩.
