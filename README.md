@@ -7,29 +7,16 @@ A basic guide to quantum programming across multiple quantum languages, with an 
 The following Quantum programming languages will be used for demonstrating concepts.
 
 ### Cirq
-- Superconducting qubits
-- Google owned
-- Python
-- https://quantumai.google/cirq
+Superconducting qubits | Google | Python | https://quantumai.google/cirq
 
 ### Qiskit
-- Superconducting qubits
-- IBM owned
-- Python
-- https://www.ibm.com/quantum/qiskit
+Superconducting qubits | IBM | Python | https://www.ibm.com/quantum/qiskit
 
 ### QSharp (Q#)
-- Topological qubits
-- Microsoft owned
-- Uses .NET for a runner but not a .NET language
-- https://github.com/microsoft/qsharp
+Topological qubits | Microsoft | Custom language | https://github.com/microsoft/qsharp
 
 ### pyQuil
-- Superconducting qubits
-- Rigetti owned
-- Python
-- https://pyquil-docs.rigetti.com/en/stable/
-
+Superconducting qubits | Rigetti | Python | https://pyquil-docs.rigetti.com/en/stable/
 
 ## 01_Qubit
 
