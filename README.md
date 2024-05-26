@@ -36,6 +36,7 @@ The following Quantum programming languages will be used for demonstrating conce
 - [What is a qubit?](01_Qubit/what_is_qubit.md)
 - [Qubit types](01_Qubit/qubit_types.md)
 - [Qubit phase](01_Qubit/qubit_phase.md)
+- [Measurement](01_Qubit/measurement.md)
 
 ### Examples
 [Cirq](00_Code/cirq/qubit.py) | [Qiskit](00_Code/qiskit/qubit.py) | [QSharp](00_Code/qsharp/qubit.qs) | [pyQuil](00_Code/pyquil/qubit.py)
@@ -67,5 +68,6 @@ A qubit in a quantum computer going through a Pauli-X gate will rotate to the op
 
 ## 03_Algorithms
 
+[Deutsch-Jozsa](03_Algorithms/deutsch_jozsa.md) - Determines if a given function is constant (always the same output regardless of input) or balanced (produces 0 or 1 with equal probability)
 
 
