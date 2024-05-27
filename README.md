@@ -52,9 +52,8 @@ A qubit in a quantum computer going through a Pauli-X gate will rotate to the op
 ### Examples
 [Cirq](00_Code/cirq/gates.py) | [Qiskit](00_Code/qiskit/gates.py) | [QSharp](00_Code/qsharp/gates.qs) | [pyQuil](00_Code/pyquil/gates.py)
 
-
 ## 03_Algorithms
 
-[Deutsch-Jozsa](03_Algorithms/deutsch_jozsa.md) - Determines if a given function is constant (always the same output regardless of input) or balanced (produces 0 or 1 with equal probability)
+[Deutsch-Jozsa](03_Algorithms/deutsch_jozsa.md) - Determines if a given function is constant (always the same output regardless of input) or balanced (produces 0 or 1 with equal probability) [Cirq](00_Code/cirq/deutsch_jozsa.py) | [Qiskit](00_Code/qiskit/deutsch_jozsa.py) | [QSharp](00_Code/qsharp/deutsch_jozsa.qs) | [pyQuil](00_Code/pyquil/deutsch_jozsa.py)
 
 
