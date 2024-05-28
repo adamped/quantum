@@ -1,0 +1,7 @@
+# Quantum Walks
+
+A quantum walk is a fundamental concept that other algorithms such as Grovers Search will depend on. First lets start with a Classical Random Walk. In this scenario, you have a graph full of nodes and at each node you flip and coin and then move either left or right. This creates a random path through the graph nodes until you can go no further. This is a way to search through nodes but is an inefficient way to find anything you are searching something in an unsorted or unknown graph structure.
+
+A quantum walk can be in both chosen paths at the same time and encode it in the phase of a qubit. With each path it could take, the amplitude of the phases will change in a destructive or constructive wave pattern. The manipulation of the amplitude amplifies the good possibilities and surpresses the bad.
+
+If you have a graph you need to determine a way to flag what you are looking for in each node. This is called marking the target. You can then use a qubit superposition to determine every possible path at the same time and gives the probability of a walker node being the node you are looking for, based on adjusting the phase based on a node being marked. This is a probabilistic exploration and not a guaranteed answer.
