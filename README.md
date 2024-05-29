@@ -57,5 +57,5 @@ A qubit in a quantum computer going through a Pauli-X gate will rotate to the op
 [Deutsch-Jozsa](03_Algorithms/deutsch_jozsa.md) - Determines if a given function is constant (always the same output regardless of input) or balanced (produces 0 or 1 with equal probability) [Cirq](00_Code/cirq/deutsch_jozsa.py) | [Qiskit](00_Code/qiskit/deutsch_jozsa.py) | [QSharp](00_Code/qsharp/deutsch_jozsa.qs) | [pyQuil](00_Code/pyquil/deutsch_jozsa.py)
 
 [Quantum Walk](03_Algorithms/quantum_walks.md) - Ability to search multiple paths simultaneously to find a node.
-
+[Grover's Search](03_Algorithms/grovers_search.md) - Best suited to find element in massive unstructured dataset.
 
